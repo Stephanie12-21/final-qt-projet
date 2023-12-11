@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../assets/account_circle_FILL0_wght400_GRAD0_opsz24 - Copie.svg</file>
+        <file>../../assets/account_circle_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>../../assets/add_box_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>../../assets/add_box_FILL0_wght400_GRAD0_opsz48.svg</file>
+        <file>../../assets/box_edit_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../assets/cancel_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../assets/create_new_folder_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../assets/delete_forever_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>../../assets/disabled_by_default_FILL0_wght400_GRAD0_opsz48.svg</file>
+        <file>../../assets/edit_square_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>../../assets/folder_delete_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../assets/inventory_2_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../assets/inventory_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../assets/inventory_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>../../assets/logout_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../assets/picture_as_pdf_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../assets/print_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../assets/published_with_changes_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>../../assets/quick_reference_all_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>../../assets/search_FILL0_wght400_GRAD0_opsz24 (1).png</file>
+        <file>../../assets/storage_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../assets/storage_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>gestion_stock.sqbpro</file>
+        <file>gestion_stock.db</file>
+    </qresource>
+</RCC>

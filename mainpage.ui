@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainPage</class>
+ <widget class="QMainWindow" name="MainPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1469</width>
+    <height>905</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Gestion des stocks des matériels informatiques</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/Ryuk/Downloads/inventory_FILL0_wght400_GRAD0_opsz24.png</normaloff>C:/Users/Ryuk/Downloads/inventory_FILL0_wght400_GRAD0_opsz24.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Acceuil</string>
+       </attribute>
+       <widget class="QTableView" name="tableViewBilan">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>1421</width>
+          <height>791</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>360</y>
+          <width>350</width>
+          <height>45</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+ {
+border-radius: 8px; 
+color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);
+}
+:hover 
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(0, 85, 255);
+}s</string>
+        </property>
+        <property name="text">
+         <string>Se déconnecter</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Produits</string>
+       </attribute>
+       <widget class="QTableView" name="produitTable">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>1421</width>
+          <height>791</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="ajoutProduitBtn">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>730</y>
+          <width>250</width>
+          <height>45</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+ {
+border-radius: 8px; 
+color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);
+}
+:hover 
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(0, 85, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Ajouter</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="PDFProduitbtn">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>730</y>
+          <width>250</width>
+          <height>45</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+ {
+border-radius: 8px; 
+color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);
+}
+:hover 
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(0, 85, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Export en PDF</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="modif_produitbtn">
+        <property name="geometry">
+         <rect>
+          <x>780</x>
+          <y>730</y>
+          <width>250</width>
+          <height>45</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+ {
+border-radius: 8px; 
+color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);
+}
+:hover 
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(0, 85, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Modifier</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="sup_produitbtn">
+        <property name="geometry">
+         <rect>
+          <x>1130</x>
+          <y>730</y>
+          <width>250</width>
+          <height>45</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+ {
+border-radius: 8px; 
+color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);
+}
+:hover 
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(0, 85, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Supprimer</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Bons d'entrée</string>
+       </attribute>
+       <widget class="QTableView" name="bonEntreeTable">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>1421</width>
+          <height>791</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="ajoutBEbtn">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>730</y>
+          <width>250</width>
+          <height>45</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+ {
+border-radius: 8px; 
+color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);
+}
+:hover 
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(0, 85, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Ajouter</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="modifBEbtn">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>730</y>
+          <width>250</width>
+          <height>45</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+ {
+border-radius: 8px; 
+color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);
+}
+:hover 
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(0, 85, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Modifier</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="supBEbtn">
+        <property name="geometry">
+         <rect>
+          <x>1060</x>
+          <y>730</y>
+          <width>250</width>
+          <height>45</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+ {
+border-radius: 8px; 
+color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);
+}
+:hover 
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(0, 85, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Supprimer</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Bon de sortie</string>
+       </attribute>
+       <widget class="QTableView" name="bonSortieTable">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>1421</width>
+          <height>791</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="modifBSbtn">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>730</y>
+          <width>250</width>
+          <height>45</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+ {
+border-radius: 8px; 
+color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);
+}
+:hover 
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(0, 85, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Modifier</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="ajoutBSbtn">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>730</y>
+          <width>250</width>
+          <height>45</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+ {
+border-radius: 8px; 
+color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);
+}
+:hover 
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(0, 85, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Ajouter</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="supBSbtn">
+        <property name="geometry">
+         <rect>
+          <x>1060</x>
+          <y>730</y>
+          <width>250</width>
+          <height>45</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+ {
+border-radius: 8px; 
+color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);
+}
+:hover 
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(0, 85, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Supprimer</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>Bilan</string>
+       </attribute>
+       <widget class="QTableView" name="BilanTable">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>1421</width>
+          <height>791</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+       </widget>
+       <widget class="QTableView" name="MouvementStockTable">
+        <property name="geometry">
+         <rect>
+          <x>635</x>
+          <y>30</y>
+          <width>781</width>
+          <height>581</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLCDNumber" name="TotalEntree">
+        <property name="geometry">
+         <rect>
+          <x>1130</x>
+          <y>630</y>
+          <width>279</width>
+          <height>36</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLCDNumber" name="TotalSortie">
+        <property name="geometry">
+         <rect>
+          <x>1130</x>
+          <y>680</y>
+          <width>279</width>
+          <height>35</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="rechercheButton">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>660</y>
+          <width>200</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+ {
+border-radius: 8px; 
+color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);
+}
+:hover 
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(0, 85, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Rechercher</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="cancelBilanBtn">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>660</y>
+          <width>200</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+ {
+	
+		border-radius: 8px; 
+	color: rgb(170, 0, 0);
+	
+
+}
+:hover 
+{
+	border-radius: 8px; 
+	border:1px solid #ff3122;
+	background-color: rgb(255, 255, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Annuler</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="PDFBilanbtn">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>660</y>
+          <width>200</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+ {
+border-radius: 8px; 
+color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);
+}
+:hover 
+{
+	color: rgb(0, 0, 0);
+	background-color: rgb(0, 85, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Export en  PDF</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>980</x>
+          <y>630</y>
+          <width>141</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Total en entrées:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>980</x>
+          <y>680</y>
+          <width>141</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Total en sorties</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>591</width>
+          <height>581</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <widget class="QLCDNumber" name="StockCompteur">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>240</y>
+           <width>361</width>
+           <height>41</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QDateEdit" name="DateDebut">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>360</y>
+           <width>361</width>
+           <height>41</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QDateEdit" name="DateFin">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>480</y>
+           <width>361</width>
+           <height>41</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>490</y>
+           <width>101</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Date finale:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>360</y>
+           <width>121</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Date de début:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>250</y>
+           <width>101</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Stock actuel:</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="designComboBox">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>110</y>
+           <width>361</width>
+           <height>41</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>110</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Désignation du produit:</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../assets/account_circle_FILL0_wght400_GRAD0_opsz24 - Copie.svg</file>
+        <file>../assets/account_circle_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>../assets/box_edit_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../assets/cancel_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../assets/category_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>../assets/create_new_folder_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../assets/folder_delete_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../assets/inventory_2_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../assets/inventory_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../assets/inventory_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>../assets/logout_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../assets/picture_as_pdf_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../assets/print_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../assets/search_FILL0_wght400_GRAD0_opsz24 (1).png</file>
+        <file>../assets/storage_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>C:/Users/Ryuk/Downloads/inventory_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>C:/Users/Ryuk/Downloads/storage_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>C:/Users/Ryuk/Downloads/add_box_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>C:/Users/Ryuk/Downloads/delete_forever_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>C:/Users/Ryuk/Downloads/edit_square_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>C:/Users/Ryuk/Downloads/published_with_changes_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>C:/Users/Ryuk/Downloads/quick_reference_all_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>C:/Users/Ryuk/Downloads/disabled_by_default_FILL0_wght400_GRAD0_opsz48.svg</file>
+        <file>C:/Users/Ryuk/Downloads/add_box_FILL0_wght400_GRAD0_opsz48.svg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ajout_produit</class>
+ <widget class="QDialog" name="ajout_produit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>724</width>
+    <height>652</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AJOUT D'UN NOUVEAU PRODUIT</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Assets.qrc">
+    <normaloff>:/assets/inventory_2_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/assets/inventory_2_FILL0_wght400_GRAD0_opsz24.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="styleSheet">
+      <string notr="true">border-radius:8px;
+background-color:#f5fff9;
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QPushButton" name="cancelbtn">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>530</y>
+        <width>501</width>
+        <height>55</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+
+
+QPushButton {
+	background-color: rgb(255, 255, 255);
+	border-radius:8px;
+	
+	color: rgb(0, 0, 0);
+}
+:hover{
+	
+	
+	color: rgb(255, 0, 0);
+	border:1px solid #ff3122;
+	background-color: rgb(255, 255, 255);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Annuler</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="confirmbtn">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>430</y>
+        <width>501</width>
+        <height>55</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(85, 170, 255);
+	border-radius:8px;
+	color: rgb(255, 255, 255);
+}
+:hover{
+	
+	color: rgb(0, 0, 0);
+	background-color: rgb(0, 85, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Confirmer</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="designEdit">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>230</y>
+        <width>501</width>
+        <height>55</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius:8px;
+border: 1px solid #000000;
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Désignation du produit</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="stockEdit">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>330</y>
+        <width>501</width>
+        <height>55</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius:8px;
+border: 1px solid #000000;
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Stock ou quantité du produit</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>100</y>
+        <width>501</width>
+        <height>55</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="text">
+       <string>        AJOUT D'UN NOUVEAU PRODUIT</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Assets.qrc"/>
+ </resources>
+ <connections/>
+</ui>
